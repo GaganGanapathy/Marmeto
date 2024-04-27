@@ -54,6 +54,7 @@
         padding: 0px 20px !important;
         text-align: center !important;
         display: flex !important;
+        flex-wrap: wrap !important;
         align-items: center !important;
         margin: 4px 2px;
     }
