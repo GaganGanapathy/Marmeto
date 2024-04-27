@@ -53,6 +53,14 @@
     .right {
         width: 100vw !important;
     }
+    .single-size-pill {
+        font-size: 13px;
+        padding: 5px 20px !important;
+        text-align: center !important;
+        display: flex !important;
+        align-items: center !important;
+        margin: 4px 2px;
+    }
 }
 
 .main-image {
@@ -154,14 +162,7 @@
     cursor: pointer;
     border-radius: 16px;
 }
-.single-size-pill {
-        font-size: 13px;
-        padding: 0px 20px !important;
-        text-align: center !important;
-        display: flex !important;
-        align-items: center !important;
-        margin: 4px 2px;
-}
+
 
 hr {
     width: 100%;
