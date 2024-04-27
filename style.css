@@ -49,15 +49,7 @@
         margin-top: -2px !important;
     }
 
-    .single-size-pill {
-        font-size: 13px;
-        padding: 0px 20px !important;
-        text-align: center !important;
-        display: flex !important;
-        align-items: center !important;
-        margin: 4px 2px;
-    }
-
+    
     .right {
         width: 100vw !important;
     }
@@ -161,6 +153,14 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
+}
+.single-size-pill {
+        font-size: 13px;
+        padding: 0px 20px !important;
+        text-align: center !important;
+        display: flex !important;
+        align-items: center !important;
+        margin: 4px 2px;
 }
 
 hr {
