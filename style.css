@@ -1,0 +1,234 @@
+@import url("https://fonts.google.com/specimen/Inter");
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: Inter;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .left {
+        width: 50%;
+    }
+
+    .single-pallete {
+        width: 20% !important;
+    }
+
+    input {
+        margin-top: -2px !important;
+    }
+
+    .single-size-pill {
+        font-size: 13px;
+        padding: 0px 20px !important;
+        text-align: center !important;
+        display: flex !important;
+        align-items: center !important;
+        margin: 4px 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column !important;
+    }
+
+    .left {
+        width: 100vw !important;
+    }
+
+    input {
+        margin-top: -2px !important;
+    }
+
+    .single-size-pill {
+        font-size: 13px;
+        padding: 0px 20px !important;
+        text-align: center !important;
+        display: flex !important;
+        align-items: center !important;
+        margin: 4px 2px;
+    }
+
+    .right {
+        width: 100vw !important;
+    }
+}
+
+.main-image {
+    height: 75%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-pallete {
+    margin: 20px 0px 20px 15px;
+    width: 80%;
+    display: flex;
+    height: 25%;
+    gap: 27px;
+    justify-content: center;
+}
+
+.single-pallete {
+    object-fit: cover;
+    width: 15%;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.discount {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pallete-section {
+    display: flex;
+    flex-direction: column;
+    color: #B9BBBF;
+}
+
+#color-pallete,
+#size-pills {
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.single-color-pallete {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#company-title {
+    font-size: 16px;
+    font-family: inter;
+    color: #B9BBBF;
+    font-size: 15px;
+}
+
+#product-name {
+    font-size: 28px;
+}
+
+#discounted-price {
+    color: #3A4980;
+    font-size: 34px;
+}
+
+#discount-percent {
+    margin-left: 15px;
+    color: #FF000080;
+    font-size: 21px;
+}
+
+#actual-price {
+    font-size: 21px;
+    color: #00000080;
+    text-decoration: line-through
+}
+
+.single-size-pill {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+hr {
+    width: 100%;
+}
+
+#adding-section {
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+#quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    /*   border:1px solid red; */
+    background-color: #F3F3F3;
+    /*   outline:1px solid red; */
+    border-radius: 22px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0 5px;
+    /*   outline:1px solid blue; */
+    font-size: larger;
+}
+
+button:last-child {
+    color: #3A4980;
+}
+
+button+span {
+    font-size: large;
+    color: #3A4980;
+}
+
+#add-cart {
+    display: flex;
+    align-items: center;
+    background-color: #3A4980;
+    color: white;
+    border-radius: 22px;
+    gap: 5px;
+    padding: 10px 15px;
+}
+
+#add-cart span {
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+#selected-product {
+    display: none;
+    padding: 0 10px;
+    width: fit-content;
+    line-height: 2;
+    background-color: #E7F8B7;
+    border-radius: 5px;
+}
+
+#description {
+    color: #A3A3A3;
+    font-size: 20px;
+}
+
+/* .color-pallete {
+
+} */

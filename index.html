@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="main-image">
+                <img src="./assets/model.png" alt="model image here">
+            </div>
+            <div class="image-pallete">
+                <img class="single-pallete" src="./assets/model.png" alt="model image here">
+                <img class="single-pallete" src="./assets/model.png" alt="model image here">
+                <img class="single-pallete" src="./assets/model.png" alt="model image here">
+                <img class="single-pallete" src="./assets/model.png" alt="model image here">
+            </div>
+        </div>
+        <div class="right">
+            <div class="product-title">
+                <div id="company-title"></div>
+                <div id="product-name"></div>
+            </div>
+            <hr>
+            <div class="price">
+                <div class="discount">
+                    <div id="discounted-price"></div>
+                    <div id="discount-percent"></div>
+                </div>
+                <div id="actual-price"></div>
+            </div>
+            <hr>
+            <div class="pallete-section">
+                <div>Choose a Color</div>
+                <div id="color-pallete">
+                </div>
+            </div>
+            <hr>
+            <div class="pallete-section">
+                <div>Choose a Size</div>
+                <div id="size-pills">
+                </div>
+            </div>
+            <hr>
+            <div id="adding-section">
+                <div id="quantity">
+                <button id="decrement">-</button><span id="product-count"></span><button id="increment">+</button>
+                </div>
+                <div id="add-cart" onclick="test()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg><span>Add To Cart</span></div>
+            </div>
+            <div id="selected-product">
+            </div>
+            <hr>
+            <div id="description"> </div>
+        </div>
+    </div>
+</body>
+</html>
